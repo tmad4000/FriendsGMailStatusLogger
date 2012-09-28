@@ -1,0 +1,7 @@
+A simple GTalk client build with Swing and the Smack library for XMPP communication.
+
+YOU NEED TO EDIT:
+jButton1Connect in HTalk.java to input login
+getContacts() in xmpp for status msg logging
+
+check out http://stackoverflow.com/questions/3641029/get-gmail-user-available-status for code advice
