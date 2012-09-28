@@ -1,4 +1,4 @@
-/*
+/* fjdsiofjsdo
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -165,7 +165,7 @@ public class HTalk extends javax.swing.JFrame {
     private boolean jButton1Connect(java.awt.event.ActionEvent evt){
         if(XMPP.getConnection()==null){
 	    //Insert GOOGLE ACCOUNT
-            XMPP.connect("YOUREMAILHERE@gmail.com", "Yourpwd");
+            XMPP.connect(GmailLogin.USER, GmailLogin.PASS);
             jLabel1.setText("Connected.");
             jButton1.setText("Disconnect");
             return true;
