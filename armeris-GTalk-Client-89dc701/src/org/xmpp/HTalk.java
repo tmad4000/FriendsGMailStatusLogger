@@ -165,7 +165,7 @@ public class HTalk extends javax.swing.JFrame {
     private boolean jButton1Connect(java.awt.event.ActionEvent evt){
         if(XMPP.getConnection()==null){
 	    //Insert GOOGLE ACCOUNT
-            XMPP.connect("YOUREMAILHERE@gmail.com", "Your");
+            XMPP.connect("YOUREMAILHERE@gmail.com", "Yourpwd");
             jLabel1.setText("Connected.");
             jButton1.setText("Disconnect");
             return true;
